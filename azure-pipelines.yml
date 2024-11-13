@@ -17,7 +17,7 @@ strategy:
   maxParallel: 3
 
 pool:
-  vmImage: $(image-name)
+  vmImage: $(imageName)
 
 variables:
   buildConfiguration: 'Release'
